@@ -23,13 +23,18 @@ items:
  - rodjek/puppet-lint
  - koalaman/shellcheck
  - r-lib/lintr
- - testdouble/standard
+ - standardrb/standard
  - realm/SwiftLint
  - replicatedhq/dockerfilelint
  - mvdan/sh
  - ansible/ansible-lint
  - dotenv-linter/dotenv-linter
  - florianschanda/miss_hit
+ - pmd/pmd
+ - diffplug/spotless
+ - spotbugs/spotbugs
+ - trunk-io/plugins
+ - astral-sh/ruff
 display_name: Clean code linters
 created_by: holman
 ---

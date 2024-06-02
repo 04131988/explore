@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'github'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -20,7 +20,7 @@ jobs:
       - name: Test collection with autofix and commit changes
         uses: technote-space/create-pr-action@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUTOCORRECT_RENAMED_REPOS: 1
         with:
           EXECUTE_COMMANDS: |

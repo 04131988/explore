@@ -28,6 +28,7 @@ items:
  - thesabbir/simple-line-icons
  - usmanhalalit/charisma
  - usmanhalalit/laracsv
+ - boss-net/license-checker
 
 display_name: Made in Bangladesh
 created_by: kuttumiah
